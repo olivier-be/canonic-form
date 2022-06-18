@@ -58,7 +58,7 @@ int main()
 	float a, b, c, i, y, x1,x22,x11, x2, z, alpha1, beta1;
 	x11 = 0;
 	x22 = 0;
-	cout << "vous deverer ecrire de maniere lineaire par ex x au carre =x*x sinon x*1 et pareil pour ax =1* x\n";
+	cout << "vous deverez ecrire de maniere lineaire par ex x au carre =x*x sinon x*1 et pareil pour ax =1* x\n";
 	cout << "la forme est:ax au carre - bx+c=1\n" << "ou ax au carre + bx+c=2\n" << "ou ax au carre - bx -c=3\n" << "ou ax au carre - bx-c=1 ax-bx+c=2\n";
 	cin >> i;
 	cout << "juste devant le x1\n";
@@ -72,7 +72,7 @@ int main()
 	x2 = ante(x22);
 	alpha1=alpha(x1, x2);
 	beta1=beta(x1, x2);
-	cout << a << "( x - " << alpha1 << " )² +" << beta1 << endl;
+	cout << a << "( x - " << alpha1 << " )Ë› +" << beta1 << endl;
 
 	return 0;
 }
